@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5002/api';
+const API_URL = 'https://sixnine-galaxies-private-limited.onrender.com/api';
 
 export interface Player {
   id: string;
