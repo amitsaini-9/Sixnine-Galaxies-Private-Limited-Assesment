@@ -1,0 +1,14 @@
+{
+  "name": "sixnine-galaxies-private-limited-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install --prefix dice-game && npm install --prefix server",
+    "build": "npm run build --prefix dice-game && npm run build --prefix server",
+    "start": "concurrently \"npm run start --prefix dice-game\" \"npm run start --prefix server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
