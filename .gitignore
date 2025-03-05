@@ -1,7 +1,7 @@
 # Node.js dependencies
 node_modules/
 */node_modules/
-
+server/node_modules/
 # Yarn
 .pnp
 .pnp.*
@@ -17,6 +17,8 @@ coverage/
 # Next.js
 .dice-game/.next/
 .dice-game/out/
+dice-game/.next/
+dice-game/out/
 
 # Production builds
 /build
