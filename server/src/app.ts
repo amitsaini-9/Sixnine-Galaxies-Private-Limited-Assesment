@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://sixnine-galaxies-private-limited-assesment-gy5p.vercel.app' }));
+app.use(cors({ origin: 'https://sixnine-galaxies-private-limited-assesment.vercel.app' }));
 app.use(express.json());
 
 // Test route
